@@ -1,0 +1,3 @@
+*** NOTE *** Please follow the protocol specified in the Git/Github Lab thread of our group channel. 
+
+Contributors:

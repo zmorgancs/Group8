@@ -1,5 +1,11 @@
 *** NOTE *** Please follow the protocol specified in the Git/Github Lab thread of our group channel. 
 
 Contributors:
-Ryan Amendala       amendala@unlv.nevada.edu
-Anthony Valdez      valdea7@unlv.nevada.edu
+Ryan Amendala       	amendala@unlv.nevada.edu
+Anthony Valdez      	valdea7@unlv.nevada.edu
+Camden Yenchek      	yenchek@unlv.nevada.edu
+Joseph O'Connor     	oconnj6@unlv.nevada.edu
+Nicholas Manasewitsch 	manasn2@unlv.nevada.edu
+Adam Bunnell		bunnea1@unlv.nevada.edu
+Cody Stumbough		stumboug@unlv.nevada.edu
+Zachary Morgan		morgaz1@unlv.nevada.edu

@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 from datetime import datetime
 
-# Load your data into a DataFrame
+# Load data into a DataFrame
 df = pd.read_csv('/home/toefoo/_code/groupProject/repo_mining/data/rootbeer_authors_dates.csv')
 
 # Convert 'Date' column to datetime objects and sort by date

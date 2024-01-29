@@ -98,7 +98,7 @@ def countfiles(dictfiles, lsttokens, repo):
 
 # Main execution
 repo = "scottyab/rootbeer"  # Example repo
-lstTokens = ["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"]  # DONT FORGET TO DELETE
+lstTokens = ["Token ID"]  # DONT FORGET TO DELETE
 dictfiles = defaultdict(list)
 countfiles(dictfiles, lstTokens, repo)
 

@@ -1,0 +1,5 @@
+# *** NOTE *** Tasks for the project
+# What the task is and who has expierience / planning on working on it 
+
+Frontend/UX                                 Ryan A
+

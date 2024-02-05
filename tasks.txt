@@ -4,34 +4,61 @@
 Needs
     Map
         2 Base Areas
-        Plots to build structures (7?)
+		Each base area should be just a spot with a fair amount of space where there is only structure plots
+        Structure Foundations (7?)
+		A structure foundation is basically just a reserved space where you are allowed to build a structure
     Lane
+	The lane in the center of the map connects the two bases together, and allows units to move between the two
 Camera Controls
     WASD / Edge Panning
+	If the player uses the WASD keys, the camera should move in that direction, and similarly, should move in that direction if the cursor reaches the edge of the screen.
     Zoom Levels? Scale?
+	If the player scrolls on the mouse wheel, the camera should get lower to or farther from the ground. May consider using some 'zoom levels'
+		There will be a 'floor' and 'ceiling' so the camera doesn't go under the map or too far into the sky
 HUD? (Warcraft Style?)
      Minimap
+	A smaller representation of the entire game space, using varying sized colored squares to represent units or buildings of that faction
      Selection Panel
-      Unit Ability Panel?
+	Should contain the name and stats of the last building/unit clicked on
+     Utilities Menu
+	Build Button
+		Opens the Building Submenu, where the player selects a building to build
 Factions
+    Color?
+	Each faction should arbitrarily have a color assigned to them for quick identification with the minimap
+    Hostility
+	Each faction should have a list of factions that they will not attack, and their units will attack all others
     Player
+	Units and structures with this faction designation will be attacked by units that are hostile to this faction
     Opponent
+	Units and structures with this faction designation will be attacked by units that are hostile to this faction
+    Neutral
+	Used for the Capture the Flag game mode, cannot be attacked by any faction
 Structures
-    Build on Land Plots?
-    Command & Conquer Style?
-Types (6?)
-    Resource 1 Generator
-    Resource 2 Generator
-    Barracks
-    Defense Tower?
-    Heavy Barracks?
-    Upgrade Building?
-Building Stats
-    Health
-    Armor
-    Building Armor
-    Strong vs Ranged
-    Weak v Siege?
+    Build on Foundation
+	Only one structure can be built on a foundation at a time, and structures must be built on a foundation
+    Building Flow (supplemental NOT A TASK, purely for demonstration)
+	Click build button on HUD, change utilities menu to building menu, click desired building icon, click desired foundation, building should build there, done
+    Types (6?)
+	Gold Generator
+		Automatically generates X gold every Y interval
+	Resource 2 Generator
+		Automatically generates X Resource 2 every Z interval
+			Z should probably be higher than Y
+	Barracks
+		Automatically generates units every W interval
+	Defense Tower?
+	Heavy Barracks?
+		Automatically generates units from a different selection every W interval 
+	Upgrade Building?
+    Building Stats (TBD don't pick up building stats tasks yet)
+	Health
+		The health of the building. If this reaches 0, the building is destroyed.
+	Armor
+		The armor of a building should be uniform across all buil
+		Resistances & Vulnerabilities
+			Strong vs Ranged
+			Weak v Siege?
 Units
     Types (6?)
          Light Melee
@@ -40,35 +67,47 @@ Units
          Light Ranged
          Medium Ranged
          Siege?
-Unit Stats
-    Health
-    Armor
-        Type
-             Resistances
-             Vulnerabilities
-       Amount
-       Damage
-       Move Speed
-Unit Upgrades?
-      Health
-      Damage
-      Armor
-      Move Speed?
+    Unit Stats
+	Health
+		The health of the unit. If this reaches 0, the unit is killed.
+        Armor
+		The armor of the unit, it determines the types of damage that it is resistant to
+        	Type
+             		Resistances & Vulnerabilites
+				Each type of armor gives certain types of damage that it is resistant or vulnerable to
+				Resistance = take 1/2 damage
+				Vulnerable = Take 2x Damage	
+        Damage
+		Type
+			Each unit deals damage of a specific type (melee, ranged, or siege?)
+		Amount
+			The amount of health the attacked unit or structure loses, before resistances & vulnerabilities
+        Move Speed
+		How fast the unit moves
 Enemy AI
      Build Buildings on Plots
 Unit AI
      Movement
           Move Down Lane
+		Move towards the opponent's base, may need to navigate around units that aren't moving (units in combat, or units that are stuck for whatever reason)
      Combat
           Attack Nearby Always
+		If an attackable unit is nearby, go into 'attack mode' and fight that attackable unit
 Objectives (2?)
       Capture the Flag / King of the Hill
-              Mobile Flag in the middle      that is controlled by whoever had the most units around it last
-Slowly moves to the base of whoever controls it
-If it stays in a base for X time, they win?
+	Mobile Flag in the middle that is controlled by whoever had the most units around it last
+	Slowly moves to the base of whoever controls it
+	If it stays in a base for X time, they win?
       Reverse Tower Defense
             Each team has X lives
             Each Base has a zone next to the entrance?
-           When units from opposing faction reach the zone, the lives go down
+            When units from opposing faction reach the zone, the lives go down
             Exhaust opponent’s lives to win
-
+Upgrades? (TBD)
+   Unit Upgrades
+	Health
+	Damage
+	Armor
+	Move Speed?
+   Building Upgrades
+	Resource Generation Rate?

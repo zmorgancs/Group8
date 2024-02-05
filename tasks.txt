@@ -1,0 +1,74 @@
+# *** NOTE *** Tasks for the project
+# What the task is and who has expierience / planning on working on it 
+
+Needs
+    Map
+        2 Base Areas
+        Plots to build structures (7?)
+    Lane
+Camera Controls
+    WASD / Edge Panning
+    Zoom Levels? Scale?
+HUD? (Warcraft Style?)
+     Minimap
+     Selection Panel
+      Unit Ability Panel?
+Factions
+    Player
+    Opponent
+Structures
+    Build on Land Plots?
+    Command & Conquer Style?
+Types (6?)
+    Resource 1 Generator
+    Resource 2 Generator
+    Barracks
+    Defense Tower?
+    Heavy Barracks?
+    Upgrade Building?
+Building Stats
+    Health
+    Armor
+    Building Armor
+    Strong vs Ranged
+    Weak v Siege?
+Units
+    Types (6?)
+         Light Melee
+         Medium Melee
+         Heavy Melee
+         Light Ranged
+         Medium Ranged
+         Siege?
+Unit Stats
+    Health
+    Armor
+        Type
+             Resistances
+             Vulnerabilities
+       Amount
+       Damage
+       Move Speed
+Unit Upgrades?
+      Health
+      Damage
+      Armor
+      Move Speed?
+Enemy AI
+     Build Buildings on Plots
+Unit AI
+     Movement
+          Move Down Lane
+     Combat
+          Attack Nearby Always
+Objectives (2?)
+      Capture the Flag / King of the Hill
+              Mobile Flag in the middle      that is controlled by whoever had the most units around it last
+Slowly moves to the base of whoever controls it
+If it stays in a base for X time, they win?
+      Reverse Tower Defense
+            Each team has X lives
+            Each Base has a zone next to the entrance?
+           When units from opposing faction reach the zone, the lives go down
+            Exhaust opponent’s lives to win
+

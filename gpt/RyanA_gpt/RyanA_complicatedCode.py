@@ -1,3 +1,5 @@
+# Before engaging with GPT
+
 def fibonacci(n, memo={}):
     if n in memo:
         return memo[n]

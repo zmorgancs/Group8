@@ -74,6 +74,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 import nl.tudelft.jpacman.sprite.PacManSprites;
 import nl.tudelft.jpacman.sprite.EmptySprite;
 
+// needs more documentation
 public class DefaultPointCalculatorTest {
 
     private DefaultPointCalculator defaultPointCalculator;

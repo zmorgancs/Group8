@@ -1,7 +1,7 @@
 import datetime
 
 def log_message(level, message):
-    current_time = datetime.datetime.now()
+    current_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     print(f"[{level}] {current_time}: {message}")
 
 log_message("INFO", "This is an informational message.")

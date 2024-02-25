@@ -11,10 +11,10 @@ namespace Incursion.Pieces
         private int rectX;
         private int rectY;
 
-        public int Index { get; private set; } = 0;
+        public int Index { get; private set; }
         public int FramesX { get; private set; }
         public int FramesY { get; private set; }
-        public float Melee { get; private set; } = 0;
+        public float Melee { get; private set; }
         public float Ranged { get; private set; }
         public float Speed { get; private set; }
         public float Defense { get; private set; }
